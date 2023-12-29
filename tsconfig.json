@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/node21/tsconfig.json",
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "sourceMap": true,
+        "allowJs": true,
+        "checkJs": true,
+    },
+}

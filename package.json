@@ -1,0 +1,26 @@
+{
+  "name": "work-watcher",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc --pretty --sourceMap",
+    "start:dev": "npx nodemon",
+    "start:debug": "npx nodemon --inspect=0.0.0.0:9229 dist/index.js"
+  },
+  "author": "Arsylk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@tsconfig/node21": "^21.0.0",
+    "chokidar": "^3.5.3",
+    "extract-zip": "^2.0.1",
+    "pino": "^8.16.2",
+    "pino-pretty": "^10.2.3",
+    "prettier": "^3.1.1"
+  }
+}
